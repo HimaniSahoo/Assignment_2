@@ -1,0 +1,8 @@
+
+Problem Statement : Create a dice program and there must be 2 dice and each dice will generate a random face every time
+		    when the user clicks on the button called roll.
+Outcomes:
+	I made use of javascript where I used the Math.random for displaying the random values and
+	linked image to it which will be displayed on screen.
+	While doing my assignment I learnt many javascript functions and conditions based statement and its Implementation.
+	I took references from developer.mozilla.org js for some Syntax and uses of function in javascript. 

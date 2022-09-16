@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+        <p id="dice"></p>
+
+        <img id="diceImg" src="" width="10%" height="auto"></br>
+        <img id="diceImg1" src="" width="10%" height="auto"></br>
+
+        <button onclick="clickevent()">Roll!</button>
+
+   <script>
+        var para;
+        var rannum;
+        var rannum1;
+        function clickevent(){
+            rannum = Math.floor(Math.random() * 6) + 1;
+            rannum1 = Math.floor(Math.random() * 6) + 1;
+            para = document.getElementById("dice");
+            para.innerHTML = rannum;
+            if(rannum==1){
+
+                document.getElementById("diceImg").src = "dice-images/1.png";
+
+            }
+
+            if(rannum==2){
+
+                document.getElementById("diceImg").src = "dice-images/2.jfif";
+
+            }
+
+            if(rannum==3){
+
+                document.getElementById("diceImg").src = "dice-images/3.png";
+
+            }
+
+            if(rannum==4){
+
+                document.getElementById("diceImg").src = "dice-images/4.jfif";
+
+            }
+
+            if(rannum==5){
+
+                document.getElementById("diceImg").src = "dice-images/5.png";
+
+            }
+
+            if(rannum==6){
+
+                document.getElementById("diceImg").src = "dice-images/6.png";
+
+            }
+
+        
+       
+
+            if(rannum1==1){
+
+            document.getElementById("diceImg1").src = "dice-images/1.png";
+
+            }
+
+            if(rannum1==2){
+
+            document.getElementById("diceImg1").src = "dice-images/2.jfif";
+
+            }
+
+            if(rannum1==3){
+
+            document.getElementById("diceImg1").src = "dice-images/3.png";
+
+            }
+
+            if(rannum1==4){
+
+            document.getElementById("diceImg1").src = "dice-images/4.jfif";
+
+            }
+
+            if(rannum1==5){
+
+            document.getElementById("diceImg1").src = "dice-images/5.png";
+
+            }
+
+            if(rannum1==6){
+
+            document.getElementById("diceImg1").src = "dice-images/6.png";
+
+            }
+
+        }
+        
+   </script>
+</body>
+</html>
